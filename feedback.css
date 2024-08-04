@@ -1,0 +1,378 @@
+@font-face {
+    font-family: 'apercu';
+    src: url('https://staging.tossdown.site/assets/theme_one/fonts/aperculight/aperculight.otf') format('opentype'),
+        url('https://staging.tossdown.site/assets/theme_one/fonts/aperculight/aperculight.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+    font-variant-ligatures: no-common-ligatures;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Apercu';
+    box-sizing: border-box;
+    
+}
+html img{
+    cursor: pointer;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: black;
+   
+}
+body{
+    background-color: black;
+}
+
+/* .container {
+    background-color: black;
+    min-height: 100vh;
+    min-width: 100vw;
+} */
+
+
+.banner {
+    width: 100%;
+    height: 76rem;
+    background-image: url(https://static.tossdown.com/site/4beaa66e-dda0-460b-84e4-640fa692e00e.webp);
+    background-size: cover;
+
+
+}
+
+.ban-hold {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.54;
+    position: relative;
+
+}
+
+.texthold {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text1 {
+    color: white;
+    font-style: normal;
+    font-size: 4.3rem;
+    margin-top: 1rem;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.text2 {
+    font-style: normal;
+
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: Philosopher, sans-serif;
+    font-size: 10rem;
+    color: rgb(255, 255, 255);
+}
+
+.text3 {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+    font-family: Dosis, sans-serif;
+    text-transform: capitalize;
+
+}
+
+.sectionend {
+    width: 100%;
+    height: 120rem;
+    background-color: black;
+   
+   
+}
+.textone{
+    width: max-content;
+    color: white;
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+    font-family: sans-serif;
+    border-right: 1px dashed white;
+    padding: 0 2rem;
+    padding-right: 4.5rem;
+    margin-top: 5rem;
+}
+.sectionend-content{
+    max-width: 90%;
+    margin: auto;
+    height: 100%;
+}
+.sec-end-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+   
+}
+.item1{
+  
+    padding-top: 3rem;
+   
+   
+}
+.stars{
+    width: 100%;
+    height: 24rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.star1{
+    padding-left: 3rem;
+   
+}
+.star3{
+    padding-left: 3rem;
+}
+.star1 h4{
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+.star2 h4{
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+.star3 h4{
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+.star4 h4{
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+.sec-stars {
+    display: flex;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+.sec-stars div{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0.2rem;
+    padding-right: 0.2rem;
+   cursor: pointer;
+}
+.form{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-right: 1px dashed white;
+
+   
+}
+
+.line{
+    width: 100%;
+    padding: 0 3.3rem;
+}
+.line1{
+    display: flex;
+    justify-content: space-between;
+}
+.line1 input{
+    width: 25.6rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    padding: 0 1rem;
+}
+.line2{
+    width: 100%;
+    padding: 0 3.3rem;
+}
+.line2 input{
+    width: 100%;
+    height: 5rem;
+    border-radius: 0.5rem;
+    padding: 0 1rem;
+
+
+}
+.line3{
+    width: 100%;
+    padding: 0 3.3rem;
+}
+.line3 select{
+    width: 100%;
+    height: 5rem;
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+}
+.line4{
+    width: 100%;
+    padding: 0 3.3rem;
+}
+.line4 input{
+    width: 100%;
+    height: 5rem;
+    border-radius: 0.5rem;
+    padding: 0 1rem;
+
+
+}
+.line5{
+    width: 100%;
+    padding: 0 3.3rem;
+}
+.line5 textarea{
+    width: 100%;
+    height: 10rem;
+    border-radius: 0.5rem;
+    padding: 0 1rem;
+}
+.line6{
+    padding: 0 3.3rem;
+}
+.line6 h5{
+    color:white ;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.mini-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mini1 label{
+    color: white;
+
+}
+.mini1 input{
+    width: 15.7rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+}
+.line7{
+    padding: 0 3.3rem;
+}
+.line7 h5{
+    color:white ;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.line7 label{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1;
+
+}
+.radio2{
+    padding-left: 10rem;
+}
+.line8{
+    padding: 0 3.3rem;
+}
+.line8 h5{
+    color:white ;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.chk label{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: white;
+}
+.checkbox{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-left: 0.3rem;
+}
+.submit{
+    padding: 0 3.3rem;
+}
+.submit :hover{
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+}
+.sub-form{
+    width: 9.3rem;
+    height: 4.6rem;
+    background-color: #ED1C24;
+    border-radius: 3rem;
+    color: white;
+    border: none;
+}
+.item2-content{
+    padding-left: 3rem;
+    text-align: center;
+}
+.item2-content h2{
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+}
+.secp{
+    
+        padding-left: 3rem;
+        text-wrap: wrap;
+}
+.sec-p{
+    font-family: sans-serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: white;
+    text-align: start;
+    text-wrap: wrap;
+    width: 57rem;
+
+}
+.map2{
+    width: 56rem;
+    height: 22.5rem;
+  
+    padding-left: 3rem;
+
+}
+.map2 iframe{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.office{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.office h2{
+
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: white;
+}
+.office span{
+    color: white;
+    font-size: 1.4rem;
+}
+.pad{
+    padding:0 0.5rem;
+}
